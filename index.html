@@ -1,0 +1,148 @@
+index.html
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>அருள்மிகு ஓப்பல்கல ஸ்ரீ முத்துமாரியம்மன் திருக்கோயில்</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,"Noto Sans Tamil",sans-serif;background:#fff8e9;color:#38200e}
+header{background:linear-gradient(135deg,#7b160e,#c65b13);color:white;text-align:center;padding:32px 15px}
+.om{font-size:42px;color:#ffdf80}
+h1{font-size:clamp(24px,5vw,38px);margin:12px 0}
+header p{font-size:17px}
+nav{background:#48120d;padding:12px;text-align:center}
+button{cursor:pointer;border:0;border-radius:7px;padding:10px 14px;margin:4px;font-size:15px}
+nav button{background:#fff1c7;color:#651c0d;font-weight:bold}
+nav button.active{background:#ffc94a}
+main{max-width:950px;margin:auto;padding:20px}
+.hero{background:#ffedc3;border:1px solid #e7bd70;border-radius:14px;padding:28px 20px;text-align:center}
+.hero h2{font-size:28px;color:#8c2411}
+section{background:white;padding:22px;margin:18px 0;border-radius:12px;box-shadow:0 3px 12px #6c3d1010}
+h2,h3{color:#8c2411}
+.info{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}
+.card{background:#fff4db;padding:17px;border-radius:10px}
+footer{background:#48120d;color:white;text-align:center;padding:24px;line-height:1.8}
+a{color:#9b3512}
+.small{font-size:14px;color:#725b48}
+</style>
+</head>
+<body>
+<header>
+<div class="om">ॐ</div>
+<div id="eyebrow">அம்மன் துணை</div>
+<h1 id="title">அருள்மிகு ஓப்பல்கல ஸ்ரீ முத்துமாரியம்மன் திருக்கோயில்</h1>
+<p id="subtitle">ஓப்பல்கல கிராமம் • ரத்தோட்டை • மாத்தளை • இலங்கை</p>
+</header>
+<nav>
+<button class="active" onclick="setLang('ta',this)">தமிழ்</button>
+<button onclick="setLang('en',this)">English</button>
+<button onclick="setLang('si',this)">සිංහල</button>
+</nav>
+<main>
+<div class="hero">
+<h2 id="welcome">அன்புடன் வரவேற்கிறோம்!</h2>
+<p id="intro">அன்னை ஸ்ரீ முத்துமாரியம்மனின் திருவருள் அனைவருக்கும் கிடைக்கப் பிரார்த்திக்கிறோம்.</p>
+<p>🌺 🙏 🪔 🙏 🌺</p>
+</div>
+<section>
+<h2 id="aboutTitle">எமது திருக்கோயில்</h2>
+<p id="about">இலங்கையின் மத்திய மாகாணம், மாத்தளை மாவட்டம், ரத்தோட்டை நகருக்கு அருகிலுள்ள ஓப்பல்கல கிராமத்தில் அமைந்துள்ள அருள்மிகு ஓப்பல்கல ஸ்ரீ முத்துமாரியம்மன் திருக்கோயிலின் இணையதளத்திற்கு உங்களை அன்புடன் வரவேற்கிறோம்.</p>
+<p class="small" id="historyNote">கோவிலின் விரிவான வரலாறு விரைவில் இங்கு சேர்க்கப்படும்.</p>
+</section>
+<section>
+<h2 id="servicesTitle">பூஜைகள் மற்றும் வழிபாடுகள்</h2>
+<div class="info">
+<div class="card"><h3 id="dailyTitle">தினசரி பூஜைகள்</h3><p id="daily">பூஜை நேரங்கள் விரைவில் அறிவிக்கப்படும்.</p></div>
+<div class="card"><h3 id="festivalTitle">திருவிழாக்கள்</h3><p id="festival">வருடாந்திர திருவிழா விபரங்கள் விரைவில் அறிவிக்கப்படும்.</p></div>
+<div class="card"><h3 id="noticeTitle">அறிவிப்புகள்</h3><p id="notice">புதிய அறிவிப்புகள் இங்கு வெளியிடப்படும்.</p></div>
+</div>
+</section>
+<section>
+<h2 id="visitTitle">எங்களைத் தொடர்புகொள்ள</h2>
+<p id="location">📍 ஓப்பல்கல கிராமம், ரத்தோட்டை அருகில், மாத்தளை மாவட்டம், இலங்கை.</p>
+<p id="phone">📞 கோவில் நிர்வாகத்தின் தொடர்பு எண் விரைவில் சேர்க்கப்படும்.</p>
+<p id="donation">🙏 நன்கொடை தொடர்பான விபரங்களுக்கு கோவில் நிர்வாகத்தைத் தொடர்புகொள்ளவும்.</p>
+</section>
+</main>
+<footer>
+<div id="blessing">ஓம் சக்தி! பராசக்தி!</div>
+<div id="footname">அருள்மிகு ஓப்பல்கல ஸ்ரீ முத்துமாரியம்மன் திருக்கோயில்</div>
+<p>© <span id="year"></span> | <span id="rights">அனைத்து உரிமைகளும் கோவில் நிர்வாகத்திற்குரியவை.</span></p>
+</footer>
+<script>
+const text={
+ta:{
+eyebrow:"அம்மன் துணை",
+title:"அருள்மிகு ஓப்பல்கல ஸ்ரீ முத்துமாரியம்மன் திருக்கோயில்",
+subtitle:"ஓப்பல்கல கிராமம் • ரத்தோட்டை • மாத்தளை • இலங்கை",
+welcome:"அன்புடன் வரவேற்கிறோம்!",
+intro:"அன்னை ஸ்ரீ முத்துமாரியம்மனின் திருவருள் அனைவருக்கும் கிடைக்கப் பிரார்த்திக்கிறோம்.",
+aboutTitle:"எமது திருக்கோயில்",
+about:"இலங்கையின் மத்திய மாகாணம், மாத்தளை மாவட்டம், ரத்தோட்டை நகருக்கு அருகிலுள்ள ஓப்பல்கல கிராமத்தில் அமைந்துள்ள அருள்மிகு ஓப்பல்கல ஸ்ரீ முத்துமாரியம்மன் திருக்கோயிலின் இணையதளத்திற்கு உங்களை அன்புடன் வரவேற்கிறோம்.",
+historyNote:"கோவிலின் விரிவான வரலாறு விரைவில் இங்கு சேர்க்கப்படும்.",
+servicesTitle:"பூஜைகள் மற்றும் வழிபாடுகள்",dailyTitle:"தினசரி பூஜைகள்",
+daily:"பூஜை நேரங்கள் விரைவில் அறிவிக்கப்படும்.",festivalTitle:"திருவிழாக்கள்",
+festival:"வருடாந்திர திருவிழா விபரங்கள் விரைவில் அறிவிக்கப்படும்.",
+noticeTitle:"அறிவிப்புகள்",notice:"புதிய அறிவிப்புகள் இங்கு வெளியிடப்படும்.",
+visitTitle:"எங்களைத் தொடர்புகொள்ள",
+location:"📍 ஓப்பல்கல கிராமம், ரத்தோட்டை அருகில், மாத்தளை மாவட்டம், இலங்கை.",
+phone:"📞 கோவில் நிர்வாகத்தின் தொடர்பு எண் விரைவில் சேர்க்கப்படும்.",
+donation:"🙏 நன்கொடை தொடர்பான விபரங்களுக்கு கோவில் நிர்வாகத்தைத் தொடர்புகொள்ளவும்.",
+blessing:"ஓம் சக்தி! பராசக்தி!",footname:"அருள்மிகு ஓப்பல்கல ஸ்ரீ முத்துமாரியம்மன் திருக்கோயில்",
+rights:"அனைத்து உரிமைகளும் கோவில் நிர்வாகத்திற்குரியவை."
+},
+en:{
+eyebrow:"Divine Blessings",
+title:"Arulmigu Opalgala Sri Muthumariamman Temple",
+subtitle:"Opalgala Village • Rattota • Matale • Sri Lanka",
+welcome:"Welcome to Our Temple!",
+intro:"May the divine blessings of Sri Muthumariamman be with everyone.",
+aboutTitle:"About Our Temple",
+about:"Welcome to the website of Arulmigu Opalgala Sri Muthumariamman Temple, located in Opalgala village near Rattota, Matale District, Central Province, Sri Lanka.",
+historyNote:"The detailed history of the temple will be published here soon.",
+servicesTitle:"Worship and Services",dailyTitle:"Daily Poojas",
+daily:"Pooja times will be announced soon.",festivalTitle:"Temple Festivals",
+festival:"Annual festival details will be announced soon.",
+noticeTitle:"Announcements",notice:"New announcements will be published here.",
+visitTitle:"Contact Us",
+location:"📍 Opalgala Village, near Rattota, Matale District, Sri Lanka.",
+phone:"📞 Temple administration contact number will be added soon.",
+donation:"🙏 Please contact the temple administration for donation information.",
+blessing:"Om Shakthi! Para Shakthi!",footname:"Arulmigu Opalgala Sri Muthumariamman Temple",
+rights:"All rights reserved by the temple administration."
+},
+si:{
+eyebrow:"දේව ආශිර්වාදය",
+title:"අරුල්මිගු ඔපල්ගල ශ්‍රී මුත්තුමාරිඅම්මන් කෝවිල",
+subtitle:"ඔපල්ගල ගම්මානය • රත්තොට • මාතලේ • ශ්‍රී ලංකාව",
+welcome:"සාදරයෙන් පිළිගනිමු!",
+intro:"ශ්‍රී මුත්තුමාරිඅම්මන් මෑණියන්ගේ ආශිර්වාදය සැමට ලැබේවා!",
+aboutTitle:"අපගේ කෝවිල",
+about:"ශ්‍රී ලංකාවේ මධ්‍යම පළාතේ මාතලේ දිස්ත්‍රික්කයේ රත්තොට නගරය අසල ඔපල්ගල ගම්මානයේ පිහිටි මෙම කෝවිලේ වෙබ් අඩවියට සාදරයෙන් පිළිගනිමු.",
+historyNote:"කෝවිලේ සවිස්තරාත්මක ඉතිහාසය ඉක්මනින් මෙහි පළ කෙරේ.",
+servicesTitle:"පූජා සහ වන්දනා",dailyTitle:"දෛනික පූජා",
+daily:"පූජා වේලාවන් ඉක්මනින් දැනුම් දෙනු ලැබේ.",festivalTitle:"වාර්ෂික උත්සව",
+festival:"වාර්ෂික උත්සව විස්තර ඉක්මනින් පළ කෙරේ.",
+noticeTitle:"නිවේදන",notice:"නව නිවේදන මෙහි පළ කෙරේ.",
+visitTitle:"අප අමතන්න",
+location:"📍 ඔපල්ගල ගම්මානය, රත්තොට අසල, මාතලේ දිස්ත්‍රික්කය, ශ්‍රී ලංකාව.",
+phone:"📞 කෝවිල් පරිපාලනයේ දුරකථන අංකය පසුව එක් කරනු ලැබේ.",
+donation:"🙏 පරිත්‍යාග පිළිබඳ විස්තර සඳහා කෝවිල් පරිපාලනය අමතන්න.",
+blessing:"දේව ආශිර්වාදය සැමට!",footname:"අරුල්මිගු ඔපල්ගල ශ්‍රී මුත්තුමාරිඅම්මන් කෝවිල",
+rights:"සියලු හිමිකම් කෝවිල් පරිපාලනය සතුය."
+}};
+function setLang(lang,button){
+document.documentElement.lang=lang;
+document.querySelectorAll("nav button").forEach(b=>b.classList.remove("active"));
+button.classList.add("active");
+Object.keys(text[lang]).forEach(id=>{
+const el=document.getElementById(id);
+if(el)el.textContent=text[lang][id];
+});
+}
+document.getElementById("year").textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
